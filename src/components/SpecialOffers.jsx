@@ -26,8 +26,8 @@ const SpecialOffers = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
           {offers.map((offer, index) => (
-            <div key={index} className="bg-white p-8 rounded-lg shadow-sm border border-amber-100">
-              <h3 className="text-xl font-bold text-amber-700 mb-4 font-elegant">{offer.title}</h3>
+            <div key={index} className="bg-white p-8 rounded-lg shadow-sm border border-gray-200">
+              <h3 className="text-xl font-bold text-gray-900 mb-4 font-elegant">{offer.title}</h3>
               <p className="text-gray-600 font-paragraph leading-relaxed">
                 {offer.description}
               </p>
@@ -38,7 +38,7 @@ const SpecialOffers = () => {
         <div className="text-center">
           <a
             href="#contact"
-            className="inline-block bg-amber-600 text-white px-8 py-4 text-sm font-medium tracking-wide uppercase hover:bg-amber-700 transition-colors duration-300 font-brandon"
+            className="inline-block bg-orange-600 text-white px-8 py-4 text-sm font-medium tracking-wide uppercase hover:bg-orange-700 transition-colors duration-300 font-brandon"
           >
             Liên hệ nhận ưu đãi
           </a>

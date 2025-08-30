@@ -17,8 +17,9 @@ const Testimonials = () => {
   ];
 
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto bg-gray-50" id="testimonials">
-      <div className="text-center mb-16">
+    <section className="py-20 bg-gray-50" id="testimonials">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-16">
         <h2 className="text-4xl font-light text-gray-900 mb-6 font-heading-main">Khách hàng nói về chúng tôi</h2>
         <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed font-paragraph">
           Những chia sẻ từ các cặp đôi đã tổ chức tiệc cưới tại White House Wedding
@@ -41,10 +42,11 @@ const Testimonials = () => {
       <div className="text-center">
         <a
           href="#contact"
-          className="inline-block border border-gray-900 text-gray-900 px-8 py-4 text-sm font-medium tracking-wide uppercase hover:bg-gray-900 hover:text-white transition-colors duration-300 font-brandon"
+          className="inline-block border-2 border-orange-600 text-orange-600 px-8 py-4 text-sm font-medium tracking-wide uppercase hover:bg-orange-600 hover:text-white transition-colors duration-300 font-brandon"
         >
           Xem thêm cảm nhận
         </a>
+      </div>
       </div>
     </section>
   );

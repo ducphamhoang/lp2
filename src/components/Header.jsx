@@ -34,7 +34,7 @@ const Header = () => {
           </nav>
 
           <div className="hidden md:block">
-            <a href="#contact" className="bg-gray-900 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-gray-800 transition-colors font-brandon">
+            <a href="#contact" className="bg-orange-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-orange-700 transition-colors font-brandon">
               Yêu cầu tư vấn
             </a>
           </div>
@@ -72,7 +72,7 @@ const Header = () => {
             </div>
             <div className="pt-4 pb-3 border-t border-gray-200">
               <div className="flex items-center px-5">
-                <a href="#contact" className="w-full bg-gray-900 text-white text-center px-4 py-2 rounded-md text-sm font-medium hover:bg-gray-800 transition-colors font-brandon">
+                <a href="#contact" className="w-full bg-orange-600 text-white text-center px-4 py-2 rounded-md text-sm font-medium hover:bg-orange-700 transition-colors font-brandon">
                   Yêu cầu tư vấn
                 </a>
               </div>

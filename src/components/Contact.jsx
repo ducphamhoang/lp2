@@ -141,7 +141,7 @@ const Contact = () => {
             <div>
               <button
                 type="submit"
-                className="w-full bg-amber-600 text-white px-6 py-3 text-sm font-medium tracking-wide uppercase hover:bg-amber-700 transition-colors duration-300 font-brandon"
+                className="w-full bg-orange-600 text-white px-6 py-3 text-sm font-medium tracking-wide uppercase hover:bg-orange-700 transition-colors duration-300 font-brandon"
               >
                 Gửi thông tin
               </button>

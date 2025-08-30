@@ -47,7 +47,7 @@ const Services = () => {
       <div className="text-center">
         <a
           href="#contact"
-          className="inline-block border border-gray-900 text-gray-900 px-8 py-4 text-sm font-medium tracking-wide uppercase hover:bg-gray-900 hover:text-white transition-colors duration-300 font-brandon"
+          className="inline-block border-2 border-orange-600 text-orange-600 px-8 py-4 text-sm font-medium tracking-wide uppercase hover:bg-orange-600 hover:text-white transition-colors duration-300 font-brandon"
         >
           Xem chi tiết các gói tiệc
         </a>

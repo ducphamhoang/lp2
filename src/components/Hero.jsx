@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <section className="relative h-screen flex items-center justify-center">
+    <section className="relative h-[75vh] flex items-center justify-center">
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{

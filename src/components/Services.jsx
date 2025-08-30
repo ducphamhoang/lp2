@@ -3,18 +3,18 @@ import React from 'react';
 const Services = () => {
   const services = [
     {
-      title: "Full Wedding Planning",
-      description: "Comprehensive planning from concept to execution. We handle every detail so you can enjoy your engagement.",
+      title: "Tiệc Cưới Trọn Gói",
+      description: "Gói dịch vụ toàn diện bao gồm không gian sảnh tiệc, trang trí, hệ thống âm thanh ánh sáng và thực đơn đặc sắc cho 200 khách mời chỉ với 79 triệu đồng.",
       image: "https://static.wixstatic.com/media/84770f_b8b4fa457a4b4c1d90e6dd623f79e559~mv2_d_3625_2366_s_2.jpg/v1/fill/w_560,h_400,q_90,enc_avif,quality_auto/84770f_b8b4fa457a4b4c1d90e6dd623f79e559~mv2_d_3625_2366_s_2.jpg"
     },
     {
-      title: "Event Design",
-      description: "Creative design and styling to bring your wedding vision to life with attention to every aesthetic detail.",
+      title: "Trải Nghiệm Ẩm Thực",
+      description: "Mời bạn và gia đình đến nhà hàng của chúng tôi để dùng thử các món ăn trong thực đơn tiệc cưới, đảm bảo mỗi món ăn đều làm hài lòng những vị khách quý giá nhất.",
       image: "https://static.wixstatic.com/media/84770f_fe3dcf168ab14985a003abe162b6aa67~mv2_d_4331_2436_s_4_2.jpg/v1/fill/w_560,h_400,q_90,enc_avif,quality_auto/84770f_fe3dcf168ab14985a003abe162b6aa67~mv2_d_4331_2436_s_4_2.jpg"
     },
     {
-      title: "Day-Of Coordination",
-      description: "Professional coordination on your wedding day to ensure everything runs smoothly while you relax and celebrate.",
+      title: "Tổ Chức & Điều Phối Chuyên Nghiệp",
+      description: "Đội ngũ chuyên gia của chúng tôi sẽ điều phối mọi hoạt động trong ngày cưới, đảm bảo buổi lễ diễn ra suôn sẻ và hoàn hảo đến từng chi tiết.",
       image: "https://static.wixstatic.com/media/c19c76_25110d3e3046416494ddcc29893bff2d~mv2_d_3999_2662_s_4_2.jpg/v1/fill/w_560,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c19c76_25110d3e3046416494ddcc29893bff2d~mv2_d_3999_2662_s_4_2.jpg"
     }
   ];
@@ -22,9 +22,9 @@ const Services = () => {
   return (
     <section className="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto" id="services">
       <div className="text-center mb-16">
-        <h2 className="text-4xl font-light text-gray-900 mb-6 font-heading-main">Services</h2>
+        <h2 className="text-4xl font-light text-gray-900 mb-6 font-heading-main">Dịch vụ của chúng tôi</h2>
         <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed font-paragraph">
-          I'm a paragraph. Click here to add your own text and edit me. It's easy. Just click "Edit Text" or double click me to add your own content and make changes to the font. I'm a great place for you to tell a story and let your users know a little more about you.
+          Chúng tôi cung cấp các giải pháp toàn diện để biến đám cưới trong mơ của bạn thành hiện thực, từ khâu lên kế hoạch chi tiết đến một thực đơn hoàn hảo.
         </p>
       </div>
 
@@ -49,7 +49,7 @@ const Services = () => {
           href="#contact"
           className="inline-block border border-gray-900 text-gray-900 px-8 py-4 text-sm font-medium tracking-wide uppercase hover:bg-gray-900 hover:text-white transition-colors duration-300 font-brandon"
         >
-          View Our Packages
+          Xem chi tiết các gói tiệc
         </a>
       </div>
     </section>

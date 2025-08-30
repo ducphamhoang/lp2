@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
-    email: '',
     phone: '',
     date: '',
     message: ''
@@ -21,11 +20,10 @@ const Contact = () => {
     e.preventDefault();
     // In a real application, you would send this data to your backend
     console.log('Form submitted:', formData);
-    alert('Thank you for your enquiry! We will be in touch soon.');
+    alert('Cảm ơn bạn đã liên hệ! Chúng tôi sẽ sớm phản hồi.');
     // Reset form
     setFormData({
       name: '',
-      email: '',
       phone: '',
       date: '',
       message: ''
@@ -35,17 +33,17 @@ const Contact = () => {
   return (
     <section className="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto" id="contact">
       <div className="text-center mb-16">
-        <h2 className="text-4xl font-light text-gray-900 mb-6 font-heading-main">Get In Touch</h2>
+        <h2 className="text-4xl font-light text-gray-900 mb-6 font-heading-main">Liên hệ với chúng tôi</h2>
         <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed font-paragraph">
-          Begin planning your dream wedding with us
+          Hãy bắt đầu lên kế hoạch cho đám cưới trong mơ của bạn ngay hôm nay.
         </p>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
         <div>
-          <h3 className="text-2xl font-medium text-gray-900 mb-6 font-elegant">Let's Create Magic Together</h3>
+          <h3 className="text-2xl font-medium text-gray-900 mb-6 font-elegant">Liên hệ ngay để nhận tư vấn</h3>
           <p className="text-gray-600 mb-8 font-paragraph leading-relaxed">
-            Ready to start planning your special day? We'd love to hear from you. Schedule a complimentary consultation to discuss your vision and how we can bring it to life.
+            Đội ngũ chuyên viên của chúng tôi luôn sẵn sàng hỗ trợ bạn lên kế hoạch cho ngày trọng đại. Liên hệ ngay để được tư vấn gói tiệc phù hợp nhất.
           </p>
           
           <div className="space-y-6">
@@ -56,8 +54,8 @@ const Contact = () => {
                 </svg>
               </div>
               <div>
-                <h4 className="text-lg font-medium text-gray-900 font-subheading">Phone</h4>
-                <p className="text-gray-600 font-subheading">+1 (555) 123-4567</p>
+                <h4 className="text-lg font-medium text-gray-900 font-subheading">Điện thoại</h4>
+                <p className="text-gray-600 font-subheading">0938798642</p>
               </div>
             </div>
             
@@ -69,7 +67,7 @@ const Contact = () => {
               </div>
               <div>
                 <h4 className="text-lg font-medium text-gray-900 font-subheading">Email</h4>
-                <p className="text-gray-600 font-subheading">info@belleweddings.com</p>
+                <p className="text-gray-600 font-subheading">whitehousewedding256@gmail.com</p>
               </div>
             </div>
             
@@ -81,8 +79,8 @@ const Contact = () => {
                 </svg>
               </div>
               <div>
-                <h4 className="text-lg font-medium text-gray-900 font-subheading">Location</h4>
-                <p className="text-gray-600 font-subheading">New York, NY</p>
+                <h4 className="text-lg font-medium text-gray-900 font-subheading">Địa chỉ</h4>
+                <p className="text-gray-600 font-subheading">256-258 Tô Ký, Phường Tân Chánh Hiệp, Quận 12, TPHCM</p>
               </div>
             </div>
           </div>
@@ -91,7 +89,7 @@ const Contact = () => {
         <div className="bg-gray-50 p-8 rounded-lg">
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
-              <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1 font-subheading">Name</label>
+              <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1 font-subheading">Họ và tên *</label>
               <input
                 type="text"
                 id="name"
@@ -104,12 +102,12 @@ const Contact = () => {
             </div>
             
             <div>
-              <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1 font-subheading">Email</label>
+              <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1 font-subheading">Số điện thoại *</label>
               <input
-                type="email"
-                id="email"
-                name="email"
-                value={formData.email}
+                type="tel"
+                id="phone"
+                name="phone"
+                value={formData.phone}
                 onChange={handleChange}
                 required
                 className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-gray-500 focus:border-gray-500 font-subheading"
@@ -117,19 +115,7 @@ const Contact = () => {
             </div>
             
             <div>
-              <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1 font-subheading">Phone</label>
-              <input
-                type="tel"
-                id="phone"
-                name="phone"
-                value={formData.phone}
-                onChange={handleChange}
-                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-gray-500 focus:border-gray-500 font-subheading"
-              />
-            </div>
-            
-            <div>
-              <label htmlFor="date" className="block text-sm font-medium text-gray-700 mb-1 font-subheading">Wedding Date</label>
+              <label htmlFor="date" className="block text-sm font-medium text-gray-700 mb-1 font-subheading">Ngày tổ chức</label>
               <input
                 type="date"
                 id="date"
@@ -141,14 +127,13 @@ const Contact = () => {
             </div>
             
             <div>
-              <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1 font-subheading">Message</label>
+              <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1 font-subheading">Lời nhắn</label>
               <textarea
                 id="message"
                 name="message"
                 rows={4}
                 value={formData.message}
                 onChange={handleChange}
-                required
                 className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-gray-500 focus:border-gray-500 font-subheading"
               ></textarea>
             </div>
@@ -156,9 +141,9 @@ const Contact = () => {
             <div>
               <button
                 type="submit"
-                className="w-full bg-gray-900 text-white px-6 py-3 text-sm font-medium tracking-wide uppercase hover:bg-gray-800 transition-colors duration-300 font-brandon"
+                className="w-full bg-amber-600 text-white px-6 py-3 text-sm font-medium tracking-wide uppercase hover:bg-amber-700 transition-colors duration-300 font-brandon"
               >
-                Send Message
+                Gửi thông tin
               </button>
             </div>
           </form>

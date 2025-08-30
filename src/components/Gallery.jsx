@@ -14,9 +14,9 @@ const Gallery = () => {
     <section className="py-20 bg-gray-50" id="gallery">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-light text-gray-900 mb-6 font-heading-main">Gallery</h2>
+          <h2 className="text-4xl font-light text-gray-900 mb-6 font-heading-main">Thư viện ảnh</h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed font-paragraph">
-            I'm a paragraph. Click here to add your own text and edit me. It's easy. Just click "Edit Text" or double click me to add your own content and make changes to the font.
+            Cùng chiêm ngưỡng không gian sang trọng tại nhà hàng của chúng tôi và những khoảnh khắc hạnh phúc của các cặp đôi đã tin tưởng lựa chọn.
           </p>
         </div>
 
@@ -38,7 +38,7 @@ const Gallery = () => {
             href="#contact"
             className="inline-block border border-gray-900 text-gray-900 px-8 py-4 text-sm font-medium tracking-wide uppercase hover:bg-gray-900 hover:text-white transition-colors duration-300 font-brandon"
           >
-            View Photos
+            Xem thêm hình ảnh
           </a>
         </div>
       </div>

@@ -14,17 +14,17 @@ const Hero = () => {
 
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8">
         <h1 className="text-5xl md:text-7xl font-light text-white mb-4 font-didot">
-          Belle Weddings
+          Ngày Chung Đôi Trọn Vẹn
         </h1>
         <p className="text-xl md:text-2xl text-white mb-8 font-subheading">
-          Bespoke Wedding Planners
+          Không gian cưới đẳng cấp
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
           <a
-            href="#contact"
+            href="#services"
             className="inline-block bg-white text-gray-900 px-8 py-4 text-sm font-medium tracking-wide uppercase hover:bg-gray-100 transition-colors duration-300 font-brandon"
           >
-            Discovery Call
+            Khám phá dịch vụ
           </a>
         </div>
       </div>

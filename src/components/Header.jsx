@@ -9,33 +9,33 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
             <a href="#" className="text-2xl font-bold text-gray-900 font-didot">
-              Belle Weddings
+              White House Wedding
             </a>
           </div>
 
           <nav className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
               <a href="#home" className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium transition-colors font-brandon">
-                Home
+                Trang chủ
               </a>
               <a href="#services" className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium transition-colors font-brandon">
-                Services
+                Dịch vụ
               </a>
               <a href="#gallery" className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium transition-colors font-brandon">
-                Gallery
+                Thư viện ảnh
               </a>
               <a href="#testimonials" className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium transition-colors font-brandon">
-                Testimonials
+                Cảm nhận
               </a>
               <a href="#contact" className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium transition-colors font-brandon">
-                Contact
+                Liên hệ
               </a>
             </div>
           </nav>
 
           <div className="hidden md:block">
             <a href="#contact" className="bg-gray-900 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-gray-800 transition-colors font-brandon">
-              Enquire Now
+              Yêu cầu tư vấn
             </a>
           </div>
 
@@ -55,25 +55,25 @@ const Header = () => {
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 font-brandon">
               <a href="#home" className="text-gray-700 hover:text-gray-900 block px-3 py-2 text-base font-medium">
-                Home
+                Trang chủ
               </a>
               <a href="#services" className="text-gray-700 hover:text-gray-900 block px-3 py-2 text-base font-medium">
-                Services
+                Dịch vụ
               </a>
               <a href="#gallery" className="text-gray-700 hover:text-gray-900 block px-3 py-2 text-base font-medium">
-                Gallery
+                Thư viện ảnh
               </a>
               <a href="#testimonials" className="text-gray-700 hover:text-gray-900 block px-3 py-2 text-base font-medium">
-                Testimonials
+                Cảm nhận
               </a>
               <a href="#contact" className="text-gray-700 hover:text-gray-900 block px-3 py-2 text-base font-medium">
-                Contact
+                Liên hệ
               </a>
             </div>
             <div className="pt-4 pb-3 border-t border-gray-200">
               <div className="flex items-center px-5">
                 <a href="#contact" className="w-full bg-gray-900 text-white text-center px-4 py-2 rounded-md text-sm font-medium hover:bg-gray-800 transition-colors font-brandon">
-                  Enquire Now
+                  Yêu cầu tư vấn
                 </a>
               </div>
             </div>

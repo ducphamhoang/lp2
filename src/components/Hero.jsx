@@ -13,11 +13,11 @@ const Hero = () => {
       </div>
 
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8">
-        <h1 className="text-5xl md:text-7xl font-light text-white mb-4 font-didot">
+        <h1 className="text-6xl md:text-8xl font-light text-white mb-4 font-didot tracking-tight">
           Ngày Chung Đôi Trọn Vẹn
         </h1>
-        <p className="text-xl md:text-2xl text-white mb-8 font-subheading">
-          Không gian cưới đẳng cấp
+        <p className="text-lg md:text-xl text-white mb-8 font-subheading tracking-normal">
+          Kiến tạo khoảnh khắc hoàn mỹ
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
           <a

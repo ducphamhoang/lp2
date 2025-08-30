@@ -22,9 +22,9 @@ const Services = () => {
   return (
     <section className="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto" id="services">
       <div className="text-center mb-16">
-        <h2 className="text-4xl font-light text-gray-900 mb-6 font-elegant">Our Services</h2>
-        <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed font-serif-body italic">
-          Expertly crafted experiences for your most important day
+        <h2 className="text-4xl font-light text-gray-900 mb-6 font-heading-main">Services</h2>
+        <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed font-paragraph">
+          I'm a paragraph. Click here to add your own text and edit me. It's easy. Just click "Edit Text" or double click me to add your own content and make changes to the font. I'm a great place for you to tell a story and let your users know a little more about you.
         </p>
       </div>
 
@@ -37,7 +37,7 @@ const Services = () => {
               className="w-full h-80 object-cover mb-4 group-hover:scale-105 transition-transform duration-300"
             />
             <h3 className="text-xl font-medium text-gray-900 mb-2 font-elegant">{service.title}</h3>
-            <p className="text-sm text-gray-600 font-body leading-relaxed">
+            <p className="text-sm text-gray-600 font-paragraph leading-relaxed">
               {service.description}
             </p>
           </div>
@@ -47,7 +47,7 @@ const Services = () => {
       <div className="text-center">
         <a
           href="#contact"
-          className="inline-block border border-gray-900 text-gray-900 px-8 py-4 text-sm font-medium tracking-wide uppercase hover:bg-gray-900 hover:text-white transition-colors duration-300 font-body"
+          className="inline-block border border-gray-900 text-gray-900 px-8 py-4 text-sm font-medium tracking-wide uppercase hover:bg-gray-900 hover:text-white transition-colors duration-300 font-brandon"
         >
           View Our Packages
         </a>

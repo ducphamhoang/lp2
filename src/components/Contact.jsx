@@ -35,8 +35,8 @@ const Contact = () => {
   return (
     <section className="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto" id="contact">
       <div className="text-center mb-16">
-        <h2 className="text-4xl font-light text-gray-900 mb-6 font-elegant">Get In Touch</h2>
-        <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed font-serif-body italic">
+        <h2 className="text-4xl font-light text-gray-900 mb-6 font-heading-main">Get In Touch</h2>
+        <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed font-paragraph">
           Begin planning your dream wedding with us
         </p>
       </div>
@@ -44,7 +44,7 @@ const Contact = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
         <div>
           <h3 className="text-2xl font-medium text-gray-900 mb-6 font-elegant">Let's Create Magic Together</h3>
-          <p className="text-gray-600 mb-8 font-body leading-relaxed">
+          <p className="text-gray-600 mb-8 font-paragraph leading-relaxed">
             Ready to start planning your special day? We'd love to hear from you. Schedule a complimentary consultation to discuss your vision and how we can bring it to life.
           </p>
           
@@ -56,8 +56,8 @@ const Contact = () => {
                 </svg>
               </div>
               <div>
-                <h4 className="text-lg font-medium text-gray-900 font-body">Phone</h4>
-                <p className="text-gray-600 font-body">+1 (555) 123-4567</p>
+                <h4 className="text-lg font-medium text-gray-900 font-subheading">Phone</h4>
+                <p className="text-gray-600 font-subheading">+1 (555) 123-4567</p>
               </div>
             </div>
             
@@ -68,8 +68,8 @@ const Contact = () => {
                 </svg>
               </div>
               <div>
-                <h4 className="text-lg font-medium text-gray-900 font-body">Email</h4>
-                <p className="text-gray-600 font-body">info@belleweddings.com</p>
+                <h4 className="text-lg font-medium text-gray-900 font-subheading">Email</h4>
+                <p className="text-gray-600 font-subheading">info@belleweddings.com</p>
               </div>
             </div>
             
@@ -81,8 +81,8 @@ const Contact = () => {
                 </svg>
               </div>
               <div>
-                <h4 className="text-lg font-medium text-gray-900 font-body">Location</h4>
-                <p className="text-gray-600 font-body">New York, NY</p>
+                <h4 className="text-lg font-medium text-gray-900 font-subheading">Location</h4>
+                <p className="text-gray-600 font-subheading">New York, NY</p>
               </div>
             </div>
           </div>
@@ -91,7 +91,7 @@ const Contact = () => {
         <div className="bg-gray-50 p-8 rounded-lg">
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
-              <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1 font-body">Name</label>
+              <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1 font-subheading">Name</label>
               <input
                 type="text"
                 id="name"
@@ -99,12 +99,12 @@ const Contact = () => {
                 value={formData.name}
                 onChange={handleChange}
                 required
-                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-gray-500 focus:border-gray-500 font-body"
+                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-gray-500 focus:border-gray-500 font-subheading"
               />
             </div>
             
             <div>
-              <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1 font-body">Email</label>
+              <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1 font-subheading">Email</label>
               <input
                 type="email"
                 id="email"
@@ -112,36 +112,36 @@ const Contact = () => {
                 value={formData.email}
                 onChange={handleChange}
                 required
-                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-gray-500 focus:border-gray-500 font-body"
+                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-gray-500 focus:border-gray-500 font-subheading"
               />
             </div>
             
             <div>
-              <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1 font-body">Phone</label>
+              <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1 font-subheading">Phone</label>
               <input
                 type="tel"
                 id="phone"
                 name="phone"
                 value={formData.phone}
                 onChange={handleChange}
-                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-gray-500 focus:border-gray-500 font-body"
+                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-gray-500 focus:border-gray-500 font-subheading"
               />
             </div>
             
             <div>
-              <label htmlFor="date" className="block text-sm font-medium text-gray-700 mb-1 font-body">Wedding Date</label>
+              <label htmlFor="date" className="block text-sm font-medium text-gray-700 mb-1 font-subheading">Wedding Date</label>
               <input
                 type="date"
                 id="date"
                 name="date"
                 value={formData.date}
                 onChange={handleChange}
-                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-gray-500 focus:border-gray-500 font-body"
+                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-gray-500 focus:border-gray-500 font-subheading"
               />
             </div>
             
             <div>
-              <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1 font-body">Message</label>
+              <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1 font-subheading">Message</label>
               <textarea
                 id="message"
                 name="message"
@@ -149,14 +149,14 @@ const Contact = () => {
                 value={formData.message}
                 onChange={handleChange}
                 required
-                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-gray-500 focus:border-gray-500 font-body"
+                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-gray-500 focus:border-gray-500 font-subheading"
               ></textarea>
             </div>
             
             <div>
               <button
                 type="submit"
-                className="w-full bg-gray-900 text-white px-6 py-3 text-sm font-medium tracking-wide uppercase hover:bg-gray-800 transition-colors duration-300 font-body"
+                className="w-full bg-gray-900 text-white px-6 py-3 text-sm font-medium tracking-wide uppercase hover:bg-gray-800 transition-colors duration-300 font-brandon"
               >
                 Send Message
               </button>

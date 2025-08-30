@@ -14,9 +14,9 @@ const Gallery = () => {
     <section className="py-20 bg-gray-50" id="gallery">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-light text-gray-900 mb-6 font-elegant">Gallery</h2>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed font-serif-body italic">
-            Moments of pure magic captured in time
+          <h2 className="text-4xl font-light text-gray-900 mb-6 font-heading-main">Gallery</h2>
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed font-paragraph">
+            I'm a paragraph. Click here to add your own text and edit me. It's easy. Just click "Edit Text" or double click me to add your own content and make changes to the font.
           </p>
         </div>
 
@@ -36,9 +36,9 @@ const Gallery = () => {
         <div className="text-center mt-12">
           <a
             href="#contact"
-            className="inline-block border border-gray-900 text-gray-900 px-8 py-4 text-sm font-medium tracking-wide uppercase hover:bg-gray-900 hover:text-white transition-colors duration-300 font-body"
+            className="inline-block border border-gray-900 text-gray-900 px-8 py-4 text-sm font-medium tracking-wide uppercase hover:bg-gray-900 hover:text-white transition-colors duration-300 font-brandon"
           >
-            Request Full Gallery
+            View Photos
           </a>
         </div>
       </div>

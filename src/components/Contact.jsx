@@ -7,6 +7,7 @@ const Contact = () => {
     date: '',
     message: ''
   });
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -16,18 +17,48 @@ const Contact = () => {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // In a real application, you would send this data to your backend
-    console.log('Form submitted:', formData);
-    alert('Cảm ơn bạn đã liên hệ! Chúng tôi sẽ sớm phản hồi.');
-    // Reset form
-    setFormData({
-      name: '',
-      phone: '',
-      date: '',
-      message: ''
-    });
+
+    try {
+      setIsSubmitting(true);
+
+      // Map form fields to Google Form entry IDs
+      const formUrl = 'https://docs.google.com/forms/u/0/d/e/1FAIpQLSdKTUlvfUOEXaMB-9REsR6XigZZR9IKTpVQsj82wqGPV2457Q/formResponse';
+
+      // Split date (YYYY-MM-DD) into year, month, day without timezone issues
+      const [yearRaw = '', monthRaw = '', dayRaw = ''] = (formData.date || '').split('-');
+      const year = yearRaw;
+      const month = monthRaw ? String(parseInt(monthRaw, 10)) : '';
+      const day = dayRaw ? String(parseInt(dayRaw, 10)) : '';
+
+      const params = new URLSearchParams();
+      params.append('entry.1222129918', formData.name);
+      params.append('entry.355506656', formData.phone);
+      if (year) params.append('entry.1171600566_year', year);
+      if (month) params.append('entry.1171600566_month', month);
+      if (day) params.append('entry.1171600566_day', day);
+      params.append('entry.748895279', formData.message || '');
+
+      // Submit using no-cors (response is opaque; assume success if no exception)
+      await fetch(formUrl, {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8',
+        },
+        body: params.toString(),
+      });
+
+      alert('Cảm ơn bạn đã liên hệ! Chúng tôi sẽ sớm phản hồi.');
+      // Reset form
+      setFormData({ name: '', phone: '', date: '', message: '' });
+    } catch (error) {
+      console.error('Form submit error:', error);
+      alert('Gửi thông tin thất bại. Vui lòng thử lại.');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -142,9 +173,10 @@ const Contact = () => {
             <div>
               <button
                 type="submit"
-                className="w-full bg-orange-600 text-white px-6 py-3 text-sm font-medium tracking-wide uppercase hover:bg-orange-700 transition-colors duration-300 font-brandon"
+                disabled={isSubmitting}
+                className="w-full bg-orange-600 text-white px-6 py-3 text-sm font-medium tracking-wide uppercase hover:bg-orange-700 transition-colors duration-300 font-brandon disabled:opacity-70 disabled:cursor-not-allowed"
               >
-                Gửi thông tin
+                {isSubmitting ? 'Đang gửi...' : 'Gửi thông tin'}
               </button>
             </div>
           </form>

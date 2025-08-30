@@ -10,5 +10,11 @@ export default defineConfig({
     strictPort: true,
     hmr: false,
     allowedHosts: ['.e2b.app', 'localhost', '127.0.0.1']
+  },
+  test: {
+    environment: 'jsdom',
+    setupFiles: './vitest.setup.js',
+    globals: true,
+    css: false
   }
 })

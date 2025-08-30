@@ -31,8 +31,9 @@ const Contact = () => {
   };
 
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto" id="contact">
-      <div className="text-center mb-16">
+    <section className="py-20 bg-gray-50" id="contact">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-16">
         <h2 className="text-4xl font-light text-gray-900 mb-6 font-heading-main">Liên hệ với chúng tôi</h2>
         <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed font-paragraph">
           Hãy bắt đầu lên kế hoạch cho đám cưới trong mơ của bạn ngay hôm nay.
@@ -148,6 +149,7 @@ const Contact = () => {
             </div>
           </form>
         </div>
+      </div>
       </div>
     </section>
   );

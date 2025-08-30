@@ -20,8 +20,9 @@ const Services = () => {
   ];
 
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto" id="services">
-      <div className="text-center mb-16">
+    <section className="py-20 bg-gray-50" id="services">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-16">
         <h2 className="text-4xl font-light text-gray-900 mb-6 font-heading-main">Dịch vụ của chúng tôi</h2>
         <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed font-paragraph">
           Chúng tôi cung cấp các giải pháp toàn diện để biến đám cưới trong mơ của bạn thành hiện thực, từ khâu lên kế hoạch chi tiết đến một thực đơn hoàn hảo.
@@ -51,6 +52,7 @@ const Services = () => {
         >
           Xem chi tiết các gói tiệc
         </a>
+      </div>
       </div>
     </section>
   );

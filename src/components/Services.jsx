@@ -5,17 +5,17 @@ const Services = () => {
     {
       title: "Tiệc Cưới Trọn Gói",
       description: "Gói dịch vụ toàn diện bao gồm không gian sảnh tiệc, trang trí, hệ thống âm thanh ánh sáng và thực đơn đặc sắc cho 200 khách mời chỉ với 79 triệu đồng.",
-      image: "https://static.wixstatic.com/media/84770f_b8b4fa457a4b4c1d90e6dd623f79e559~mv2_d_3625_2366_s_2.jpg/v1/fill/w_560,h_400,q_90,enc_avif,quality_auto/84770f_b8b4fa457a4b4c1d90e6dd623f79e559~mv2_d_3625_2366_s_2.jpg"
+      image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1N4pdou2UInn2U6bZ0UuZxkflFVnr3jQCCdFGPcTtcqiLlXDaOWr1c4vGIH12aMMNzuMveBzixERMwarcT1Jw1-_HxqEMXuu61PvEsnTXtLO8E-SNFCyNR6ewkucOcXuwSqMmvznEtSTqh4W4oG9pfAJpC4RKQ2VW2APx-BeLZq1B6DEW351US7_e481g/s640/sanh-tiec-twh.jpg"
     },
     {
       title: "Trải Nghiệm Ẩm Thực",
       description: "Mời bạn và gia đình đến nhà hàng của chúng tôi để dùng thử các món ăn trong thực đơn tiệc cưới, đảm bảo mỗi món ăn đều làm hài lòng những vị khách quý giá nhất.",
-      image: "https://static.wixstatic.com/media/84770f_fe3dcf168ab14985a003abe162b6aa67~mv2_d_4331_2436_s_4_2.jpg/v1/fill/w_560,h_400,q_90,enc_avif,quality_auto/84770f_fe3dcf168ab14985a003abe162b6aa67~mv2_d_4331_2436_s_4_2.jpg"
+      image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqSF4fYXFwDLGF-pPmi1C8384un0y7tB11wE5Ixp4cEQBwv5Gl61mNuWboeru2UE4mlAExKjumShUgOGqU0OuX1qZ9cFWtCJy96DhEG6HYlnoD_VtO_1pc8VQdCjujxywcpkf6i268eaOCrfHNapVgGXow4xLKWLrP-7FCHsGeq80bX3trz7kTcULTcGfl/s640/4a65cf7eedde0a8053cf.jpg"
     },
     {
       title: "Tổ Chức & Điều Phối Chuyên Nghiệp",
       description: "Đội ngũ chuyên gia của chúng tôi sẽ điều phối mọi hoạt động trong ngày cưới, đảm bảo buổi lễ diễn ra suôn sẻ và hoàn hảo đến từng chi tiết.",
-      image: "https://static.wixstatic.com/media/c19c76_25110d3e3046416494ddcc29893bff2d~mv2_d_3999_2662_s_4_2.jpg/v1/fill/w_560,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c19c76_25110d3e3046416494ddcc29893bff2d~mv2_d_3999_2662_s_4_2.jpg"
+      image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6L-wNpniFdO6fQAiC_vLS2Mdu0_pNc1_Ay4DQTILjg4lG3GngRGM_lQPg-b0wgu4JLx1Ed1iYx3ZA7qga_iUHvFf47n4NF7mg5F1g4D805xalr2239ocuq7aHvQawE03hM4ZDXv61n35MaRaCT-oSJz5wOos8lkUfC7DwSMu7Z-QHbFj4fzAX7tYjDdrY/s640/HXK_9794-scaled.jpg"
     }
   ];
 

@@ -4,12 +4,12 @@ const FeaturedOffer = () => {
   return (
     <section className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-stretch">
           {/* Image Column */}
           <div className="order-2 lg:order-1">
-            <div className="aspect-square overflow-hidden rounded-lg shadow-lg">
+            <div className="h-full overflow-hidden rounded-lg shadow-lg">
               <img 
-                src="https://static.wixstatic.com/media/84770f_b8b4fa457a4b4c1d90e6dd623f79e559~mv2_d_3625_2366_s_2.jpg/v1/fill/w_560,h_400,q_90,enc_avif,quality_auto/84770f_b8b4fa457a4b4c1d90e6dd623f79e559~mv2_d_3625_2366_s_2.jpg"
+                src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2NEXUeU-Dv8gxJrZAOHxnXXItOziK-LM2AJcuAeRXkcmhJgSNneAjqoL4XNp9JWKJn2MrsYO-LKcGlHrfCcBpwe_uLebVoLMRhBJIgrB_uwFDamixrCedvFtM2Z-o5inbeasPBwlINWwco2hvczZVRFbJIwz381Sd-dHpLpDcES4DEYHSxVSlsBlLJrnH/s640/79tr-02.jpg"
                 alt="Tiệc cưới trọn gói tại White House Wedding"
                 className="w-full h-full object-cover"
               />

@@ -2,12 +2,12 @@ import React from 'react';
 
 const Gallery = () => {
   const images = [
-    "https://static.wixstatic.com/media/c19c76_6a1edc1794ce4e8d8502349a9feea00e~mv2_d_4892_3261_s_4_2.jpg/v1/fill/w_560,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c19c76_6a1edc1794ce4e8d8502349a9feea00e~mv2_d_4892_3261_s_4_2.jpg",
-    "https://static.wixstatic.com/media/c19c76_25110d3e3046416494ddcc29893bff2d~mv2_d_3999_2662_s_4_2.jpg/v1/fill/w_560,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c19c76_25110d3e3046416494ddcc29893bff2d~mv2_d_3999_2662_s_4_2.jpg",
-    "https://static.wixstatic.com/media/84770f_fe3dcf168ab14985a003abe162b6aa67~mv2_d_4331_2436_s_4_2.jpg/v1/fill/w_560,h_400,q_90,enc_avif,quality_auto/84770f_fe3dcf168ab14985a003abe162b6aa67~mv2_d_4331_2436_s_4_2.jpg",
-    "https://static.wixstatic.com/media/84770f_b8b4fa457a4b4c1d90e6dd623f79e559~mv2_d_3625_2366_s_2.jpg/v1/fill/w_560,h_400,q_90,enc_avif,quality_auto/84770f_b8b4fa457a4b4c1d90e6dd623f79e559~mv2_d_3625_2366_s_2.jpg",
-    "https://static.wixstatic.com/media/f61af8_8312a429fb674ea3b525dae7a46b3d03~mv2_d_2186_1457_s_2.jpg/v1/fill/w_560,h_400,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/f61af8_8312a429fb674ea3b525dae7a46b3d03~mv2_d_2186_1457_s_2.jpg",
-    "https://static.wixstatic.com/media/c19c76_6a1edc1794ce4e8d8502349a9feea00e~mv2_d_4892_3261_s_4_2.jpg/v1/fill/w_560,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c19c76_6a1edc1794ce4e8d8502349a9feea00e~mv2_d_4892_3261_s_4_2.jpg"
+    "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmwRpG4sdYiKstWcAYY7o98XS5xcowTg-rkJIRg2Ert_sbN-uW8ZWO9v0c1HqelBcnmDai8UxXWOhmM41JTn5vWMN-5eD5X6sca8ATcZp45J4Ye1irVPf0f6MfwrhlLne_zf1yKEMOs96coQ_cGidSX0pVsXLGq75jLlx_fCSj9YQSEQLN5jWVQp1COcKo/s2560/HXK_0031-scaled.jpg",
+    "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmyJW0y2jRTjs104r7gvPShIXu9v9iAJubDE0TutrQW0m_G5MAEYnTgrRFsrIrnAphHqUO3wU0Izb_2E8ujwKinoLA8ekRv8HUxcZVB_wnx1XYJhgDUNbFCcezSPC4YWMrj9T9TLY-fwtnCb30B4FdW9qT0n-kcCZv83H-LL3W76Yjl2yskyCPLqJy8sTK/s1841/20221001112644_IMG_9972_edited.jpeg",
+    "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkbfyeq0A6m6FbUcDxrxxiozY_1YjjjZ76zYNg1PwVM7-0RWVj8x2QIoRDbsQDnzL6PqcnbXE17KccujSWq1td5ZfN_Eno87yyWNMeAiPoygVKiX2Zy_iNa_Ijqu4TAwzhbrIKq365FEtiyWhsMOURRQLyDtKPCo_Y5rBMrQMKvIG0pQW3RXs346bOJB8j/s2560/z2213735971625_bd09b657caecdcff4019c2b66363229e-scaled.jpg",
+    "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2kxbrvMDvfpJ3gVAbZVjYba8U7Sz1Tn4Zr7A_XgxEjNd3LukSnGLhrnoOMEIzL7PeIpU9QHhXcbqJbbjhIIOMPw7-V70nRRmwhUUSjXqFskfGJxkHZulGK3OmPaUXg8YyUVu0obeopOvjYFzcbXmZjG_dWrVJwl9iI9RIBRmv5llJfIlcva8bWncCjniN/s1920/IMG-_-0778.jpg",
+    "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCIKXzStEY3hevpTCr4722Stj94f75GsXJhKpRB93434MTEAdAwPC-FTx8I26qYP8CJO12bn4g_3Llxh0AVNR0FRmrYSIw7fOWAmSbFDHi_uAannNYI5H4JT0J5SAoMgqyZldDwRtCCqyjagsjlCfvrEyAfJWzanVcmiVhxuEiPZYuyHVV61iMhwUP_z3q/s1280/z2062764154026_1b965862d8af8187ffa339fc66a84c1f.jpg",
+    "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeAUg5KpDgtdmO_vfkFm2tdqL2rVEDbTTqs7kgcQEUQEXgh967GsFKHe5BZbxLrXjGtQXxu69RJRehobpnEkdT7Uzdv9i70wbBsFwirQvdl_6F4frEAKpi9b1vtTF1UawwGpUq4O4XBE_gIvDHamMGyTR037vtdI0Kosmjgku2JdPMGTqsiqqxT-39tboF/s1920/IMG_0780.jpg"
   ];
 
   return (
@@ -35,10 +35,10 @@ const Gallery = () => {
 
         <div className="text-center mt-12">
           <a
-            href="#contact"
+            href="https://whitehousewedding.com.vn/sanh-tiec/"
             className="inline-block border-2 border-orange-600 text-orange-600 px-8 py-4 text-sm font-medium tracking-wide uppercase hover:bg-orange-600 hover:text-white transition-colors duration-300 font-brandon"
           >
-            Xem thêm hình ảnh
+            Xem thêm sảnh tiệc
           </a>
         </div>
       </div>

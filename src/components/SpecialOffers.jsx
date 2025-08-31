@@ -1,6 +1,9 @@
 import React from 'react';
+import { useModal } from '../contexts/ModalContext';
 
 const SpecialOffers = () => {
+  const { openModal } = useModal();
+
   const offers = [
     {
       title: "Tặng Váy Cưới Trị Giá 15 Triệu",
@@ -36,12 +39,12 @@ const SpecialOffers = () => {
         </div>
 
         <div className="text-center">
-          <a
-            href="#contact"
+          <button
+            onClick={openModal}
             className="inline-block bg-orange-600 text-white px-8 py-4 text-sm font-medium tracking-wide uppercase hover:bg-orange-700 transition-colors duration-300 font-brandon"
           >
             Liên hệ nhận ưu đãi
-          </a>
+          </button>
         </div>
       </div>
     </section>

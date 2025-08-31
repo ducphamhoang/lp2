@@ -97,3 +97,4 @@ Thumbs.db
 # Vite
 .vite/
 dist/
+node_modules/

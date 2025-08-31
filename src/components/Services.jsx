@@ -1,6 +1,9 @@
 import React from 'react';
+import { useModal } from '../contexts/ModalContext';
 
 const Services = () => {
+  const { openModal } = useModal();
+
   const services = [
     {
       title: "Tiệc Cưới Trọn Gói",
@@ -46,12 +49,12 @@ const Services = () => {
       </div>
 
       <div className="text-center">
-        <a
-          href="#contact"
+        <button
+          onClick={openModal}
           className="inline-block border-2 border-orange-600 text-orange-600 px-8 py-4 text-sm font-medium tracking-wide uppercase hover:bg-orange-600 hover:text-white transition-colors duration-300 font-brandon"
         >
           Xem chi tiết các gói tiệc
-        </a>
+        </button>
       </div>
       </div>
     </section>

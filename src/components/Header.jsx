@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
+import { useModal } from '../contexts/ModalContext';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { openModal } = useModal();
 
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50">
@@ -27,16 +29,16 @@ const Header = () => {
               <a href="#testimonials" className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium transition-colors font-brandon">
                 Cảm nhận
               </a>
-              <a href="#contact" className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium transition-colors font-brandon">
+              <button onClick={openModal} className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium transition-colors font-brandon">
                 Liên hệ
-              </a>
+              </button>
             </div>
           </nav>
 
           <div className="hidden md:block">
-            <a href="#contact" className="bg-orange-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-orange-700 transition-colors font-brandon">
+            <button onClick={openModal} className="bg-orange-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-orange-700 transition-colors font-brandon">
               Yêu cầu tư vấn
-            </a>
+            </button>
           </div>
 
           <div className="md:hidden">
@@ -66,15 +68,15 @@ const Header = () => {
               <a href="#testimonials" className="text-gray-700 hover:text-gray-900 block px-3 py-2 text-base font-medium">
                 Cảm nhận
               </a>
-              <a href="#contact" className="text-gray-700 hover:text-gray-900 block px-3 py-2 text-base font-medium">
+              <button onClick={() => { openModal(); setIsMenuOpen(false); }} className="text-gray-700 hover:text-gray-900 block px-3 py-2 text-base font-medium">
                 Liên hệ
-              </a>
+              </button>
             </div>
             <div className="pt-4 pb-3 border-t border-gray-200">
               <div className="flex items-center px-5">
-                <a href="#contact" className="w-full bg-orange-600 text-white text-center px-4 py-2 rounded-md text-sm font-medium hover:bg-orange-700 transition-colors font-brandon">
+                <button onClick={() => { openModal(); setIsMenuOpen(false); }} className="w-full bg-orange-600 text-white text-center px-4 py-2 rounded-md text-sm font-medium hover:bg-orange-700 transition-colors font-brandon">
                   Yêu cầu tư vấn
-                </a>
+                </button>
               </div>
             </div>
           </div>

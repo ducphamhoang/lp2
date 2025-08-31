@@ -1,6 +1,9 @@
 import React from 'react';
+import { useModal } from '../contexts/ModalContext';
 
 const FeaturedOffer = () => {
+  const { openModal } = useModal();
+
   return (
     <section className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -57,12 +60,12 @@ const FeaturedOffer = () => {
               </div>
             </div>
 
-            <a
-              href="#contact"
+            <button
+              onClick={openModal}
               className="inline-block bg-orange-600 text-white px-8 py-4 text-sm font-medium tracking-wide uppercase hover:bg-orange-700 transition-colors duration-300 font-brandon rounded-md"
             >
               Xem Chi Tiết Gói Tiệc
-            </a>
+            </button>
           </div>
         </div>
       </div>

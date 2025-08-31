@@ -1,6 +1,9 @@
 import React from 'react';
+import { useModal } from '../contexts/ModalContext';
 
 const Testimonials = () => {
+  const { openModal } = useModal();
+
   const testimonials = [
     {
       quote: '"Tôi chắc chắn sẽ giới thiệu White House Wedding cho bất kỳ ai đang tìm kiếm một đám cưới vừa đẹp vừa ấm cúng"',
@@ -40,12 +43,12 @@ const Testimonials = () => {
       </div>
 
       <div className="text-center">
-        <a
-          href="#contact"
+        <button
+          onClick={openModal}
           className="inline-block border-2 border-orange-600 text-orange-600 px-8 py-4 text-sm font-medium tracking-wide uppercase hover:bg-orange-600 hover:text-white transition-colors duration-300 font-brandon"
         >
           Xem thêm cảm nhận
-        </a>
+        </button>
       </div>
       </div>
     </section>

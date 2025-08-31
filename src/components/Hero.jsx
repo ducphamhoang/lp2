@@ -24,7 +24,7 @@ const Hero = () => {
             href="#services"
             className="inline-block bg-orange-600 text-white px-8 py-4 text-sm font-medium tracking-wide uppercase hover:bg-orange-700 transition-colors duration-300 font-brandon"
           >
-            Khám phá dịch vụ
+            TÌM HIỂU GÓI 79 TRIỆU
           </a>
         </div>
       </div>

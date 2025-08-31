@@ -38,7 +38,7 @@ const FeaturedOffer = () => {
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
                   </svg>
                 </div>
-                <p className="text-gray-700 font-paragraph">Không gian sảnh tiệc sang trọng, đẳng cấp</p>
+                <p className="text-gray-700 font-paragraph">Không gian sảnh tiệc sang trọng, hiện đại</p>
               </div>
               
               <div className="flex items-start space-x-3">
@@ -47,7 +47,7 @@ const FeaturedOffer = () => {
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
                   </svg>
                 </div>
-                <p className="text-gray-700 font-paragraph">Thực đơn tinh tế & Gói trang trí hoa lụa</p>
+                <p className="text-gray-700 font-paragraph">Thực đơn 7 món thượng hạng do bếp trưởng thiết kế</p>
               </div>
               
               <div className="flex items-start space-x-3">
@@ -56,7 +56,52 @@ const FeaturedOffer = () => {
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
                   </svg>
                 </div>
-                <p className="text-gray-700 font-paragraph">Quà tặng đặc biệt khi đặt tiệc trong tháng 8 - 9</p>
+                <p className="text-gray-700 font-paragraph">Trọn gói trang trí hoa tươi toàn bộ sảnh tiệc theo concept</p>
+              </div>
+
+              <div className="flex items-start space-x-3">
+                <div className="flex-shrink-0 w-6 h-6 bg-orange-600 rounded-full flex items-center justify-center mt-0.5">
+                  <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                  </svg>
+                </div>
+                <p className="text-gray-700 font-paragraph">Hệ thống Âm thanh - Ánh sáng - Màn hình LED sân khấu chuyên nghiệp</p>
+              </div>
+
+              <div className="flex items-start space-x-3">
+                <div className="flex-shrink-0 w-6 h-6 bg-orange-600 rounded-full flex items-center justify-center mt-0.5">
+                  <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                  </svg>
+                </div>
+                <p className="text-gray-700 font-paragraph">Chương trình nghi lễ đặc sắc với MC chuyên nghiệp và Vũ đoàn khai tiệc</p>
+              </div>
+
+              <div className="flex items-start space-x-3">
+                <div className="flex-shrink-0 w-6 h-6 bg-orange-600 rounded-full flex items-center justify-center mt-0.5">
+                  <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                  </svg>
+                </div>
+                <p className="text-gray-700 font-paragraph">Thiết kế & In 150 thiệp cưới theo mẫu tuỳ chọn</p>
+              </div>
+
+              <div className="flex items-start space-x-3">
+                <div className="flex-shrink-0 w-6 h-6 bg-orange-600 rounded-full flex items-center justify-center mt-0.5">
+                  <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                  </svg>
+                </div>
+                <p className="text-gray-700 font-paragraph">Bia Tiger, nước ngọt, nước suối phục vụ suốt tiệc (đã bao gồm phí phục vụ)</p>
+              </div>
+
+              <div className="flex items-start space-x-3">
+                <div className="flex-shrink-0 w-6 h-6 bg-orange-600 rounded-full flex items-center justify-center mt-0.5">
+                  <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                  </svg>
+                </div>
+                <p className="text-gray-700 font-paragraph">Quà tặng đặc biệt khi đặt tiệc trong tháng 8 - 9: Tặng váy cưới trị giá 15 triệu & Tour du lịch Đà Lạt</p>
               </div>
             </div>
 
@@ -64,7 +109,7 @@ const FeaturedOffer = () => {
               onClick={openModal}
               className="inline-block bg-orange-600 text-white px-8 py-4 text-sm font-medium tracking-wide uppercase hover:bg-orange-700 transition-colors duration-300 font-brandon rounded-md"
             >
-              Xem Chi Tiết Gói Tiệc
+              GIỮ ƯU ĐÃI NÀY CHO TÔI
             </button>
           </div>
         </div>

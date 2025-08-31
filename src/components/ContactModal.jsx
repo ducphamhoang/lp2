@@ -153,7 +153,7 @@ const ContactModal = () => {
                 disabled={isSubmitting}
                 className="w-full bg-orange-600 text-white px-6 py-3 text-sm font-medium tracking-wide uppercase hover:bg-orange-700 transition-colors duration-300 font-brandon disabled:opacity-70 disabled:cursor-not-allowed"
               >
-                {isSubmitting ? 'Đang gửi...' : 'Gửi thông tin'}
+                {isSubmitting ? 'Đang gửi...' : 'TƯ VẤN MIỄN PHÍ'}
               </button>
             </div>
           </form>

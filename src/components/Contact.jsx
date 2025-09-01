@@ -51,6 +51,12 @@ const Contact = () => {
       });
 
       alert('Cảm ơn bạn đã liên hệ! Chúng tôi sẽ sớm phản hồi.');
+      // Push event to dataLayer for Google Tag Manager
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        event: 'form_submit_success',
+        form_name: 'ContactForm'
+      });
       // Reset form
       setFormData({ name: '', phone: '', date: '', message: '' });
     } catch (error) {

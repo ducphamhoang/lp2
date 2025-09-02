@@ -1,5 +1,6 @@
 import React from 'react';
 import { ModalProvider } from './contexts/ModalContext';
+import { useSectionTracking } from './hooks/useSectionTracking';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import FeaturedOffer from './components/FeaturedOffer';
@@ -12,6 +13,9 @@ import Footer from './components/Footer';
 import ContactModal from './components/ContactModal';
 
 function App() {
+  // Initialize section view tracking
+  useSectionTracking({ threshold: 0.5 });
+
   return (
     <ModalProvider>
       <div className="min-h-screen bg-white">

@@ -10,8 +10,16 @@ const SpecialOffers = () => {
       description: "Cô dâu sẽ được nhận ngay một chiếc váy cưới lộng lẫy trị giá 15 triệu đồng khi ký hợp đồng dịch vụ."
     },
     {
-      title: "Tặng Tour Du Lịch Đà Lạt",
-      description: "Một chuyến du lịch ngọt ngào dành cho cặp đôi tại Đà Lạt như một món quà mừng hạnh phúc từ chúng tôi."
+      title: "Đặt tiệc cưới sớm — Nhận tiền mặt 3–7 triệu",
+      description: "Đặt cọc sớm để nhận tiền mặt từ 3.000.000 đến 7.000.000 VND (mức cụ thể phụ thuộc gói). Liên hệ để biết chi tiết điều kiện áp dụng."
+    },
+    {
+      title: "Khuyến mãi Tiệc Catering",
+      description: "Ưu đãi đặc biệt cho đơn hàng catering — giảm giá hoặc quà tặng theo số lượng và gói dịch vụ. Liên hệ để nhận báo giá chi tiết."
+    },
+    {
+      title: "Bốc thăm trúng xe điện",
+      description: "Tất cả khách đặt cọc trong thời gian khuyến mãi sẽ được tham gia bốc thăm trúng xe điện. Điều khoản & điều kiện áp dụng."
     }
   ];
 
@@ -20,7 +28,7 @@ const SpecialOffers = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-light text-gray-900 mb-6 font-heading-main">
-            Ưu đãi đặc biệt khi đặt tiệc trong tháng 8 - 9
+            Ưu đãi đặc biệt khi đặt tiệc trong tháng 11-12
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed font-paragraph">
             Những món quà ý nghĩa dành tặng các cặp đôi yêu dấu khi lựa chọn dịch vụ của White House Wedding.
